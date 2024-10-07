@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="firstDiv">
+            <h1>GitHub Profile Viewer</h1>
+            <div>
+                <input type="text" id="username" placeholder="Enter GitHub username" required>
+                <button id="button">Search</button>
+            </div>
+        </div>
+        <div class="secondDiv">
+            <div class="userInfo">
+                <img id="userAvatar" src="" alt="User Avatar">
+                <div class="userDetail">
+                    <p class="userName" id="userName">Name</p>
+                    <p class="userBio" id="userBio">Bio</p>
+                </div>
+            </div>
+            <div class="userFollow">
+                <div class="follower">
+                    <p>Followers</p>
+                    <p id="followersCount">0</p>
+                </div>
+                <div class="following">
+                    <p>Following</p>
+                    <p id="followingCount">0</p>
+                </div>
+                <div class="repos">
+                    <p>Repositories</p>
+                    <p id="reposCount">0</p>
+                </div>
+            </div>
+            <div class="viewProfile">
+                <a id="profileLink" href="#" target="_blank">View Profile</a>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
